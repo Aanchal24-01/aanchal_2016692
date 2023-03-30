@@ -1,0 +1,220 @@
+ .container{
+    display:flex;
+    height:100%;
+    width: 100%;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container>.one{
+    background-color: rgb(155, 159, 252);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.one>.Intro{
+    
+    text-align:justify;
+    
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:rgb(214, 241, 157);
+    box-shadow: 15px 20px 10px rgb(245, 175, 94);
+    
+}
+.container>.two{
+    background-color: rgb(237, 145, 222);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.two>.Bio{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:rgb(255, 149, 149);
+    box-shadow: 10px 20px 10px rgb(184, 231, 164);
+}
+.container>.three{
+    background-color:rgb(181, 246, 181);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.three>.Code{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:rgb(190, 195, 251);
+    box-shadow: 10px 20px 10px rgb(251, 142, 142);
+}
+.container>.four{
+    background-color:rgb(255, 140, 182);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.four>.Projects{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:rgb(175, 244, 242);
+    box-shadow: 10px 20px 10px rgb(30, 252, 104);
+}
+.container>.five{
+    background-color:violet;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.five>.education{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:rgb(119, 232, 245);
+    box-shadow: 10px 20px 10px rgb(230, 228, 120);
+}
+.container>.six{
+    background-color:orange;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.six>.cer{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:rgb(236, 119, 172);
+    box-shadow: 10px 20px 10px rgb(141, 241, 221);
+}
+.container>.seven{
+    background-color:rgb(244, 157, 157);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.seven>.aa{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:rgb(217, 244, 129);
+    box-shadow: 10px 20px 10px rgb(115, 227, 95);
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(11, 11, 122);
+    text-shadow: 2px 1px 2px black;
+    font-size: 40px;
+}
+h3{
+    color:rgb(1, 10, 13);
+    font-weight: bold;
+}
+
+.nav {            
+    font-size:100px;  
+    width:1519px;
+    top:0px;
+    background-color: rgb(23, 25, 8);
+    display:flex;
+   
+    text-shadow: 0px 10px 10px black;
+    position: fixed;
+}
+ td a:hover{
+    
+    padding:10px;
+    background-color:white;
+    color:black;
+
+}  
+td > a{
+    text-decoration: none;
+    font-size:large;
+    padding:30px;
+    color:rgb(227, 236, 224);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+     justify-content: center;
+     color:rgb(54, 32, 4)
+
+}
+        
+        
